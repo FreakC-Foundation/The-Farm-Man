@@ -285,7 +285,7 @@ EatFnc[fnc] Field
 PoopFnc[fnc] enterc
 Forget[fnc]
 PoopInput[fnc] cheat=Enter valid cheat code:
-DoIf[fnc] "%cheat%" == imrichashell PoopString[fnc] money=999999999
+DoIf[fnc] "%cheat%" == "imrichashell" PoopString[fnc] money=999999999
 PoopString[fnc] cheat=
 EatFnc[fnc] game
 
